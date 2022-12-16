@@ -7,6 +7,7 @@
         <meta name="description" content="Pagina web del restaurante veracruzano El Balajú"/>
         <meta name="keywords" content="El Balajú, Comida tropical"/>
         <meta name="author" content="El Balajú" />
+        <link rel="icon" href="images/logo.png">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         
@@ -15,10 +16,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
-        
-        
-        
-        
+
         <title>El Balajú</title>
     </head>
     <body>
@@ -27,11 +25,11 @@
               <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <nav class="header-nav">
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-left mb-md-0">
-                        <li><a href="#" class="nav-link px-2">Inicio</a></li>
-                        <li><a href="#" class="nav-link px-2">Menú</a></li>
-                        <li><a href="#" class="nav-link px-2">Nosotros</a></li>
-                        <li><a href="#" class="nav-link px-2">Eventos</a></li>
-                        <li><a href="#" class="nav-link px-2">Contacto</a></li>
+                        <li><a href="index.html" class="nav-link px-2">Inicio</a></li>
+                        <li><a href="./menu.pdf" class="nav-link px-2" target="_blank">Menú</a></li>
+                        <li><a href="nosotros.html" class="nav-link px-2">Nosotros</a></li>
+                        <li><a href="eventos.html" class="nav-link px-2">Eventos</a></li>
+                        <li><a href="contacto.html" class="nav-link px-2">Contacto</a></li>
                     </ul>
                 </nav>
                 <div class="header-logo">
@@ -63,24 +61,64 @@
                 <div class="segunda-seccion-texto">
                     <h3 id="segunda-seccion-h3">NUESTROS PLATILLOS</h3>
                     <p>Ven y disfruta de la variedad de nuestros platillos que seguro te encantaran</p>
-                    <button id="menu-boton">MENÚ</button>
+                    <button class="menu-boton">MENÚ</button>
                 </div>
             </section>
             <section class="segunda-seccion">
                 <div class="segunda-seccion-texto">
-                    <h3 id="segunda-seccion-h3">NUESTROS PLATILLOS</h3>
-                    <p>Ven y disfruta de la variedad de nuestros platillos que seguro te encantaran</p>
-                    <button id="menu-boton">MENÚ</button>
+                    <h3 id="segunda-seccion-h3">BARBACOA DE BORREGO</h3>
+                    <p>Ven y disfruta nuestro popular platillo barbacoa al horno con consomé</p>
+                    <button class="menu-boton">MENÚ</button>
                 </div>
-                <div class="segunda-seccion-img">
-                    <img src="./images/mariscos.png" alt="Platos de diferentes mariscos. Imagen ilustrativa">
+                <div class="segunda-seccion-img" id="barbacoa">
+                    <img src="./images/barbacoa.png" alt="Platos de diferentes mariscos. Imagen ilustrativa">
                 </div>
-
+            </section>
+            
+            <section class="">
+                <div class="container-imagenes">
+                    <img src="./images/evento2.png" alt="" width="33%">
+                    <img src="./images/evento3.png" alt="" width="33%">
+                    <img src="./images/gente.png" alt="" width="33%">
+                </div>
+                <h3 id="eventos">E V E N T O S</h3>
                 
             </section>
         </main>
-            
-            
-
+        <footer class="w-100 py-4 flex-shrink-0">
+            <div class="container py-4">
+                <div class="row gy-4 gx-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h1 text-white">El Balajú</h5>
+                        <p class="small text-muted">Restaurante veracruzano de comida tropical</p>
+                        <p class="small text-muted mb-0">&copy; Copyrights. Todo los derechos reservados.</p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Links rápidos</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Inicio</a></li>
+                            <li><a href="#">Menú</a></li>
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Nosotros</a></li>
+                            <li><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-3">Boletín informativo</h5>
+                        <p class="small text-muted">Suscribete a nuestra lista de correos para recibir las novedades más recientes sobre el Balajú.</p>
+                        <form action="#">
+                            <div class="input-group mb-3">
+                                <input class="form-control" type="text" placeholder="Correo electrónico" aria-label="Correo electrónico" aria-describedby="button-addon2">
+                                <button class="btn btn-primary" id="button-addon2" type="button">Suscribirse</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>  
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
