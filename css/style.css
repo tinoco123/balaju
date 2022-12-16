@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    font-size: 1.8em;
+    background-color: #F9DB79;
+    
+}
+.header-nav {
+    position: relative;
+    
+}
+.header-nav a{
+    color: black;
+}
+.header-logo{
+    margin-left: 3em;    
+}
+.header-logo a{
+    color: black;
+}
+
+main{
+    /* width: 100vw;
+    height: 100vh; */
+    background-color: white;
+}
+.primer-seccion{
+    background-color: #F9DB79;
+    width: 100vw;
+    /* height: 75vh; */
+    text-align: center;
+}
+
+
+.main-img img{
+    width: 35%;
+}
+
+
+.main-texto #comida{
+
+    font-size: 4vw;
+    font-weight: 700;
+    color: rgb(255, 255, 255) ;
+}
+
+.main-texto #tropical{
+
+    font-size: 4vw;
+    font-weight: 700;
+    color: rgb(255, 255, 255) ;
+}
+
+.segunda-seccion-img{
+    display: inline-block;
+    max-width: 50vw;
+    position: relative;
+    bottom: 1vh;
+}
+
+.segunda-seccion-img img{
+    width: 100%;
+    
+}
+
+.segunda-seccion-texto {
+    display: inline-block;
+    max-width: 50vw;
+    text-align: center;
+    color: black;
+}
+
+.segunda-seccion-texto #segunda-seccion-h3{
+    font-size: 3vw;
+}
+
+.segunda-seccion-texto p{
+
+    margin-left: 2VW;
+    font-size: 1.5vw;
+}
+
+#menu-boton{
+
+    width: 10vw;
+    height: 6vh;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 6px;
+    font-size: 2vw;
+}
+
+#menu-boton:hover{
+    color: rgb(255, 255, 255);
+    background: #1b1b1b;
+    border: 2px solid black;
+    border-radius: 6px;
+}
